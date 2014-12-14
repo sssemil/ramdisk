@@ -1,0 +1,7 @@
+#!/sbin/busybox sh
+
+export BOOTREC_EVENT_NODE="/dev/input/event2 c 13 66"
+export BOOTREC_EVENT="/dev/input/event2"
+
+export LINUX_BLOCK_NODE="/dev/block/mmcblk0p1 b 179 1"
+export LINUX_BLOCK="/dev/block/mmcblk0p1"
